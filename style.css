@@ -22,7 +22,7 @@ h1 {
 }
 
 .welcome1 img {
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -45,4 +45,28 @@ h1 {
     background-repeat: no-repeat;
     display: flex;
 
+}
+
+#middle-section {
+    display: flex;
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.middle-width {
+    width: 50%;
+}
+
+.middle-margin {
+    margin-left: 5%;
+}
+
+.middle-no-margin {
+    margin-right: 10%;
+}
+
+.middle-no-margin p {
+    color: rgba(0, 0, 0, 0.689);
 }
