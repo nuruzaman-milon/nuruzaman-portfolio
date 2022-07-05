@@ -53,9 +53,10 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 150px;
 }
 
-.middle-width {
+.half-width {
     width: 50%;
 }
 
@@ -68,5 +69,53 @@ h1 {
 }
 
 .middle-no-margin p {
+    color: rgba(0, 0, 0, 0.689);
+}
+
+.flex {
+    display: flex;
+}
+
+.box-shadow {
+    box-shadow: 20px 20px 80px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 22px;
+    border-radius: 10px;
+
+}
+
+.h2-box {
+    font-size: 38px;
+}
+
+.h1-experience {
+    margin-left: 5%;
+}
+
+.flex p {
+    color: rgba(0, 0, 0, 0.689);
+    text-align: justify;
+}
+
+.left-border1 {
+    border-left: 10px solid rgb(102, 51, 153);
+}
+
+.left-border2 {
+    border-left: 10px solid rgb(0, 72, 255);
+}
+
+#experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 80px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.689);
 }
